@@ -13,4 +13,10 @@ class PagesController < ApplicationController
     @page.destroy
     redirect_to pages_path
   end
+  def new
+    render component: "PageNew"
+  end
+  def create
+
+  end
 end

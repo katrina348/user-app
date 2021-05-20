@@ -19,6 +19,7 @@ const Pages = (props) => {
   return(
       <div>
           <h1>Posts</h1>
+        <a href='/pages/new'>create a new page</a>
           {renderPages()}
       </div>
   )
