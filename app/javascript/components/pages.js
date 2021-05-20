@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Pages = (props) =>{
+const Pages = (props) => {
   return(
     <div>
       <h1>Pages here</h1>
